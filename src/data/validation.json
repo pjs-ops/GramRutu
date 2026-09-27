@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "mae": 1.42,
+    "rmse": 1.87,
+    "r2": 0.81,
+    "bias": -0.35,
+    "sampleSize": 180,
+    "period": "June–September 2025 (Prototype Evaluation Period)",
+    "note": "These are prototype evaluation metrics computed on a limited sample of mock validation data. They do not represent final model performance and should not be cited as validated results."
+  },
+  "observedVsPredicted": [
+    { "date": "2025-06-01", "location": "Otur", "observed": 33.2, "coarseForecast": 34.0, "downscaledForecast": 33.5, "error": 0.3 },
+    { "date": "2025-06-05", "location": "Narayangaon", "observed": 31.8, "coarseForecast": 34.0, "downscaledForecast": 32.1, "error": 0.3 },
+    { "date": "2025-06-10", "location": "Alephata", "observed": 29.5, "coarseForecast": 34.0, "downscaledForecast": 30.2, "error": 0.7 },
+    { "date": "2025-06-15", "location": "Belha", "observed": 28.0, "coarseForecast": 33.5, "downscaledForecast": 28.8, "error": 0.8 },
+    { "date": "2025-06-20", "location": "Pimpalwandi", "observed": 34.5, "coarseForecast": 33.5, "downscaledForecast": 34.0, "error": -0.5 },
+    { "date": "2025-06-25", "location": "Nimgaon Ketki", "observed": 32.0, "coarseForecast": 33.5, "downscaledForecast": 32.5, "error": 0.5 },
+    { "date": "2025-07-01", "location": "Otur", "observed": 29.0, "coarseForecast": 31.0, "downscaledForecast": 29.5, "error": 0.5 },
+    { "date": "2025-07-05", "location": "Narayangaon", "observed": 30.2, "coarseForecast": 31.0, "downscaledForecast": 30.8, "error": 0.6 },
+    { "date": "2025-07-10", "location": "Alephata", "observed": 27.5, "coarseForecast": 31.0, "downscaledForecast": 28.0, "error": 0.5 },
+    { "date": "2025-07-15", "location": "Belha", "observed": 26.0, "coarseForecast": 30.5, "downscaledForecast": 26.8, "error": 0.8 },
+    { "date": "2025-07-20", "location": "Pimpalwandi", "observed": 31.0, "coarseForecast": 30.5, "downscaledForecast": 31.5, "error": 0.5 },
+    { "date": "2025-07-25", "location": "Nimgaon Ketki", "observed": 29.5, "coarseForecast": 30.5, "downscaledForecast": 30.0, "error": 0.5 },
+    { "date": "2025-08-01", "location": "Otur", "observed": 27.8, "coarseForecast": 29.5, "downscaledForecast": 28.2, "error": 0.4 },
+    { "date": "2025-08-05", "location": "Narayangaon", "observed": 28.5, "coarseForecast": 29.5, "downscaledForecast": 29.0, "error": 0.5 },
+    { "date": "2025-08-10", "location": "Alephata", "observed": 26.0, "coarseForecast": 29.5, "downscaledForecast": 26.5, "error": 0.5 },
+    { "date": "2025-08-15", "location": "Belha", "observed": 24.5, "coarseForecast": 29.0, "downscaledForecast": 25.2, "error": 0.7 },
+    { "date": "2025-08-20", "location": "Pimpalwandi", "observed": 30.0, "coarseForecast": 29.0, "downscaledForecast": 30.2, "error": 0.2 },
+    { "date": "2025-08-25", "location": "Nimgaon Ketki", "observed": 28.0, "coarseForecast": 29.0, "downscaledForecast": 28.5, "error": 0.5 },
+    { "date": "2025-09-01", "location": "Otur", "observed": 28.5, "coarseForecast": 30.0, "downscaledForecast": 29.0, "error": 0.5 },
+    { "date": "2025-09-05", "location": "Narayangaon", "observed": 29.8, "coarseForecast": 30.0, "downscaledForecast": 30.2, "error": 0.4 },
+    { "date": "2025-09-10", "location": "Alephata", "observed": 27.2, "coarseForecast": 30.0, "downscaledForecast": 27.8, "error": 0.6 },
+    { "date": "2025-09-15", "location": "Belha", "observed": 25.5, "coarseForecast": 29.5, "downscaledForecast": 26.0, "error": 0.5 },
+    { "date": "2025-09-20", "location": "Pimpalwandi", "observed": 30.5, "coarseForecast": 29.5, "downscaledForecast": 31.0, "error": 0.5 },
+    { "date": "2025-09-25", "location": "Nimgaon Ketki", "observed": 29.0, "coarseForecast": 29.5, "downscaledForecast": 29.5, "error": 0.5 }
+  ]
+}

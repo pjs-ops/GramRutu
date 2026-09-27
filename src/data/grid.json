@@ -1,0 +1,62 @@
+{
+  "blockId": "junnar-01",
+  "resolution": "1km",
+  "rows": 3,
+  "cols": 3,
+  "cells": [
+    {
+      "id": "g-0-0", "row": 0, "col": 0,
+      "centroid": [19.25, 73.77],
+      "bounds": [[19.235, 73.755], [19.265, 73.785]],
+      "temperature": 28.5, "rainfall": 58.5, "humidity": 82, "elevation": 710, "confidence": 0.74, "windSpeed": 11, "wind": 11, "downscalingDiff": -2.5, "risk": "High"
+    },
+    {
+      "id": "g-0-1", "row": 0, "col": 1,
+      "centroid": [19.25, 73.83],
+      "bounds": [[19.235, 73.815], [19.265, 73.845]],
+      "temperature": 27.2, "rainfall": 72.0, "humidity": 85, "elevation": 820, "confidence": 0.70, "windSpeed": 10, "wind": 10, "downscalingDiff": -3.8, "risk": "Severe"
+    },
+    {
+      "id": "g-0-2", "row": 0, "col": 2,
+      "centroid": [19.25, 73.89],
+      "bounds": [[19.235, 73.875], [19.265, 73.905]],
+      "temperature": 29.3, "rainfall": 48.0, "humidity": 79, "elevation": 660, "confidence": 0.72, "windSpeed": 12, "wind": 12, "downscalingDiff": -1.7, "risk": "Moderate"
+    },
+    {
+      "id": "g-1-0", "row": 1, "col": 0,
+      "centroid": [19.19, 73.77],
+      "bounds": [[19.175, 73.755], [19.205, 73.785]],
+      "temperature": 30.8, "rainfall": 24.5, "humidity": 74, "elevation": 550, "confidence": 0.80, "windSpeed": 16, "wind": 16, "downscalingDiff": -0.2, "risk": "Low"
+    },
+    {
+      "id": "g-1-1", "row": 1, "col": 1,
+      "centroid": [19.19, 73.83],
+      "bounds": [[19.175, 73.815], [19.205, 73.845]],
+      "temperature": 29.4, "rainfall": 41.2, "humidity": 80, "elevation": 625, "confidence": 0.82, "windSpeed": 12, "wind": 12, "downscalingDiff": -1.6, "risk": "Moderate"
+    },
+    {
+      "id": "g-1-2", "row": 1, "col": 2,
+      "centroid": [19.19, 73.89],
+      "bounds": [[19.175, 73.875], [19.205, 73.905]],
+      "temperature": 29.8, "rainfall": 35.0, "humidity": 77, "elevation": 640, "confidence": 0.76, "windSpeed": 13, "wind": 13, "downscalingDiff": -1.2, "risk": "Moderate"
+    },
+    {
+      "id": "g-2-0", "row": 2, "col": 0,
+      "centroid": [19.13, 73.77],
+      "bounds": [[19.115, 73.755], [19.145, 73.785]],
+      "temperature": 30.2, "rainfall": 28.5, "humidity": 75, "elevation": 560, "confidence": 0.78, "windSpeed": 15, "wind": 15, "downscalingDiff": -0.8, "risk": "Low"
+    },
+    {
+      "id": "g-2-1", "row": 2, "col": 1,
+      "centroid": [19.13, 73.83],
+      "bounds": [[19.115, 73.815], [19.145, 73.845]],
+      "temperature": 30.1, "rainfall": 32.0, "humidity": 76, "elevation": 580, "confidence": 0.78, "windSpeed": 15, "wind": 15, "downscalingDiff": -0.9, "risk": "Moderate"
+    },
+    {
+      "id": "g-2-2", "row": 2, "col": 2,
+      "centroid": [19.13, 73.89],
+      "bounds": [[19.115, 73.875], [19.145, 73.905]],
+      "temperature": 31.2, "rainfall": 22.5, "humidity": 72, "elevation": 520, "confidence": 0.75, "windSpeed": 17, "wind": 17, "downscalingDiff": 0.2, "risk": "Low"
+    }
+  ]
+}

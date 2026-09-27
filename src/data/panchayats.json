@@ -1,0 +1,252 @@
+{
+  "panchayats": [
+    {
+      "id": "p-otur",
+      "name": "Otur",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 8450,
+      "area": 18.5,
+      "elevation": 625,
+      "landCover": "Irrigated Cropland",
+      "centroid": [19.18, 73.82],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.79, 19.16], [73.85, 19.16], [73.85, 19.20], [73.79, 19.20], [73.79, 19.16]]]
+      }
+    },
+    {
+      "id": "p-narayangaon",
+      "name": "Narayangaon",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 12300,
+      "area": 22.3,
+      "elevation": 580,
+      "landCover": "Mixed Cropland",
+      "centroid": [19.12, 73.88],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.85, 19.10], [73.91, 19.10], [73.91, 19.14], [73.85, 19.14], [73.85, 19.10]]]
+      }
+    },
+    {
+      "id": "p-alephata",
+      "name": "Alephata",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 5200,
+      "area": 24.1,
+      "elevation": 710,
+      "landCover": "Rainfed Cropland",
+      "centroid": [19.22, 73.76],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.73, 19.20], [73.79, 19.20], [73.79, 19.24], [73.73, 19.24], [73.73, 19.20]]]
+      }
+    },
+    {
+      "id": "p-belha",
+      "name": "Belha",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 3800,
+      "area": 15.7,
+      "elevation": 820,
+      "landCover": "Forest / Scrubland",
+      "centroid": [19.26, 73.84],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.81, 19.24], [73.87, 19.24], [73.87, 19.28], [73.81, 19.28], [73.81, 19.24]]]
+      }
+    },
+    {
+      "id": "p-pimpalwandi",
+      "name": "Pimpalwandi",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 6100,
+      "area": 19.8,
+      "elevation": 550,
+      "landCover": "Irrigated Cropland",
+      "centroid": [19.14, 73.78],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.75, 19.12], [73.81, 19.12], [73.81, 19.16], [73.75, 19.16], [73.75, 19.12]]]
+      }
+    },
+    {
+      "id": "p-nimgaon",
+      "name": "Nimgaon Ketki",
+      "blockId": "junnar-01",
+      "block": "Junnar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "population": 4700,
+      "area": 16.2,
+      "elevation": 640,
+      "landCover": "Mixed Cropland",
+      "centroid": [19.20, 73.90],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.87, 19.18], [73.93, 19.18], [73.93, 19.22], [73.87, 19.22], [73.87, 19.18]]]
+      }
+    }
+  ],
+  "panchayatWeather": {
+    "p-otur": {
+      "panchayatId": "p-otur",
+      "panchayatName": "Otur",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 29.4,
+      "temperatureMin": 23.5,
+      "temperatureMax": 32.1,
+      "rainfall": 42.0,
+      "humidity": 78,
+      "windSpeed": 14,
+      "wind": 14,
+      "windDirection": "SW",
+      "condition": "Partly Cloudy",
+      "confidence": 0.82,
+      "risk": "Moderate",
+      "crop": "Tomato",
+      "growthStage": "Flowering",
+      "downscalingDiff": -1.6,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 29.0, "temperatureMin": 23.0, "temperatureMax": 31.8, "rainfall": 45.5, "humidity": 80, "windSpeed": 13, "condition": "Light Rain" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 27.5, "temperatureMin": 22.8, "temperatureMax": 30.2, "rainfall": 58.0, "humidity": 86, "windSpeed": 16, "condition": "Heavy Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 27.0, "temperatureMin": 22.0, "temperatureMax": 29.5, "rainfall": 72.0, "humidity": 88, "windSpeed": 14, "condition": "Intermittent Showers" }
+      ]
+    },
+    "p-narayangaon": {
+      "panchayatId": "p-narayangaon",
+      "panchayatName": "Narayangaon",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 31.2,
+      "temperatureMin": 24.0,
+      "temperatureMax": 33.0,
+      "rainfall": 24.5,
+      "humidity": 68,
+      "windSpeed": 16,
+      "wind": 16,
+      "windDirection": "SW",
+      "condition": "Clear",
+      "confidence": 0.78,
+      "risk": "Low",
+      "crop": "Grapes",
+      "growthStage": "Fruit Setting",
+      "downscalingDiff": 0.2,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 30.5, "temperatureMin": 23.5, "temperatureMax": 32.5, "rainfall": 28.0, "humidity": 72, "windSpeed": 14, "condition": "Partly Cloudy" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 29.0, "temperatureMin": 23.0, "temperatureMax": 31.0, "rainfall": 38.5, "humidity": 78, "windSpeed": 17, "condition": "Moderate Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 28.0, "temperatureMin": 22.5, "temperatureMax": 30.0, "rainfall": 48.0, "humidity": 82, "windSpeed": 15, "condition": "Showers" }
+      ]
+    },
+    "p-alephata": {
+      "panchayatId": "p-alephata",
+      "panchayatName": "Alephata",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 28.5,
+      "temperatureMin": 22.0,
+      "temperatureMax": 31.0,
+      "rainfall": 62.0,
+      "humidity": 88,
+      "windSpeed": 11,
+      "wind": 11,
+      "windDirection": "W",
+      "condition": "Cloudy",
+      "confidence": 0.74,
+      "risk": "High",
+      "crop": "Soybean",
+      "growthStage": "Pod Formation",
+      "downscalingDiff": -2.5,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 27.8, "temperatureMin": 21.5, "temperatureMax": 30.5, "rainfall": 68.0, "humidity": 89, "windSpeed": 12, "condition": "Rain" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 26.5, "temperatureMin": 21.0, "temperatureMax": 29.0, "rainfall": 78.0, "humidity": 92, "windSpeed": 14, "condition": "Heavy Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 26.0, "temperatureMin": 20.5, "temperatureMax": 28.5, "rainfall": 95.0, "humidity": 94, "windSpeed": 13, "condition": "Continuous Rain" }
+      ]
+    },
+    "p-belha": {
+      "panchayatId": "p-belha",
+      "panchayatName": "Belha",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 27.2,
+      "temperatureMin": 21.0,
+      "temperatureMax": 30.0,
+      "rainfall": 74.0,
+      "humidity": 92,
+      "windSpeed": 9,
+      "wind": 9,
+      "windDirection": "W",
+      "condition": "Overcast",
+      "confidence": 0.70,
+      "risk": "Severe",
+      "crop": "Paddy",
+      "growthStage": "Tillering",
+      "downscalingDiff": -3.8,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 26.5, "temperatureMin": 20.5, "temperatureMax": 29.0, "rainfall": 82.0, "humidity": 94, "windSpeed": 11, "condition": "Heavy Rain" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 25.8, "temperatureMin": 20.0, "temperatureMax": 28.0, "rainfall": 92.0, "humidity": 96, "windSpeed": 13, "condition": "Heavy Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 25.0, "temperatureMin": 19.5, "temperatureMax": 27.5, "rainfall": 110.0, "humidity": 98, "windSpeed": 12, "condition": "Continuous Rain" }
+      ]
+    },
+    "p-pimpalwandi": {
+      "panchayatId": "p-pimpalwandi",
+      "panchayatName": "Pimpalwandi",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 31.8,
+      "temperatureMin": 24.5,
+      "temperatureMax": 33.8,
+      "rainfall": 21.0,
+      "humidity": 62,
+      "windSpeed": 19,
+      "wind": 19,
+      "windDirection": "SW",
+      "condition": "Clear",
+      "confidence": 0.80,
+      "risk": "Moderate",
+      "crop": "Onion",
+      "growthStage": "Bulb Enlargement",
+      "downscalingDiff": 0.8,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 31.0, "temperatureMin": 24.0, "temperatureMax": 33.2, "rainfall": 24.0, "humidity": 66, "windSpeed": 18, "condition": "Partly Cloudy" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 29.5, "temperatureMin": 23.5, "temperatureMax": 31.8, "rainfall": 32.0, "humidity": 72, "windSpeed": 20, "condition": "Light Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 28.8, "temperatureMin": 23.0, "temperatureMax": 31.0, "rainfall": 45.0, "humidity": 78, "windSpeed": 17, "condition": "Showers" }
+      ]
+    },
+    "p-nimgaon": {
+      "panchayatId": "p-nimgaon",
+      "panchayatName": "Nimgaon Ketki",
+      "timestamp": "2026-09-25T10:00:00+05:30",
+      "temperature": 30.1,
+      "temperatureMin": 23.8,
+      "temperatureMax": 32.5,
+      "rainfall": 48.0,
+      "humidity": 76,
+      "windSpeed": 13,
+      "wind": 13,
+      "windDirection": "SW",
+      "condition": "Partly Cloudy",
+      "confidence": 0.76,
+      "risk": "Moderate",
+      "crop": "Sugarcane",
+      "growthStage": "Grand Growth",
+      "downscalingDiff": -0.9,
+      "forecasts": [
+        { "period": "24h", "label": "Next 24 Hours", "temperature": 29.5, "temperatureMin": 23.2, "temperatureMax": 32.0, "rainfall": 52.0, "humidity": 78, "windSpeed": 14, "condition": "Light Rain" },
+        { "period": "48h", "label": "Next 48 Hours", "temperature": 28.2, "temperatureMin": 22.8, "temperatureMax": 30.5, "rainfall": 64.0, "humidity": 84, "windSpeed": 16, "condition": "Moderate Rain" },
+        { "period": "5d", "label": "5-Day Outlook", "temperature": 27.5, "temperatureMin": 22.0, "temperatureMax": 29.8, "rainfall": 78.0, "humidity": 86, "windSpeed": 14, "condition": "Showers" }
+      ]
+    }
+  }
+}

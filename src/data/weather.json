@@ -1,0 +1,53 @@
+{
+  "location": {
+    "states": ["Maharashtra"],
+    "districts": {
+      "Maharashtra": ["Pune"]
+    },
+    "blocks": {
+      "Pune": ["Junnar"]
+    }
+  },
+  "blockWeather": {
+    "blockId": "junnar-01",
+    "block": "Junnar",
+    "timestamp": "2026-09-25T10:00:00+05:30",
+    "temperature": 31.0,
+    "temperatureMin": 24.2,
+    "temperatureMax": 33.5,
+    "rainfall": 12.4,
+    "humidity": 78,
+    "windSpeed": 14,
+    "windDirection": "SW",
+    "condition": "Partly Cloudy",
+    "source": "IMD Block Forecast (Mock)"
+  },
+  "forecast48h": {
+    "blockId": "junnar-01",
+    "block": "Junnar",
+    "timestamp": "2026-09-27T10:00:00+05:30",
+    "temperature": 29.5,
+    "temperatureMin": 23.8,
+    "temperatureMax": 32.0,
+    "rainfall": 22.6,
+    "humidity": 84,
+    "windSpeed": 18,
+    "windDirection": "W",
+    "condition": "Heavy Rain Expected",
+    "source": "IMD Block Forecast (Mock)"
+  },
+  "forecast5d": {
+    "blockId": "junnar-01",
+    "block": "Junnar",
+    "timestamp": "2026-09-30T10:00:00+05:30",
+    "temperature": 28.0,
+    "temperatureMin": 22.5,
+    "temperatureMax": 30.5,
+    "rainfall": 45.0,
+    "humidity": 86,
+    "windSpeed": 16,
+    "windDirection": "W",
+    "condition": "Intermittent Showers",
+    "source": "IMD Block Forecast (Mock)"
+  }
+}

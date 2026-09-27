@@ -1,0 +1,177 @@
+{
+  "advisories": {
+    "crop-rice": {
+      "rice-transplanting": {
+        "High": {
+          "risks": [
+            { "type": "Waterlogging", "level": "High", "description": "Excessive rainfall may cause waterlogging in transplanted fields", "parameter": "Rainfall", "threshold": ">25 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "High humidity promotes bacterial leaf blight", "parameter": "Humidity", "threshold": ">85%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures within acceptable range for transplanting", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Heavy rainfall is expected during the next 24–48 hours. Delay transplanting until rainfall subsides. Ensure field drainage channels are clear. If transplanting has already begun, monitor for seedling mortality and prepare for gap filling.",
+          "urgency": "High"
+        },
+        "Moderate": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Moderate", "description": "Moderate rainfall may temporarily waterlog low-lying areas", "parameter": "Rainfall", "threshold": "15–25 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Humidity levels manageable", "parameter": "Humidity", "threshold": ">85%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures suitable for transplanting", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Moderate rainfall expected. Transplanting can proceed in well-drained fields. Avoid transplanting in low-lying areas for the next 24 hours. Maintain 2–3 cm standing water in the field after transplanting.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Low", "description": "Light rainfall, no waterlogging expected", "parameter": "Rainfall", "threshold": ">25 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Conditions normal", "parameter": "Humidity", "threshold": ">85%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures within optimal range", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Weather conditions are favorable for transplanting. Proceed with planned operations. Ensure adequate irrigation is available if rainfall is insufficient.",
+          "urgency": "Low"
+        }
+      },
+      "rice-flowering": {
+        "High": {
+          "risks": [
+            { "type": "Heat Stress", "level": "High", "description": "High temperatures may cause spikelet sterility", "parameter": "Temperature", "threshold": ">35°C" },
+            { "type": "Waterlogging", "level": "Moderate", "description": "Heavy rain may damage panicles", "parameter": "Rainfall", "threshold": ">25 mm/day" },
+            { "type": "Disease Risk", "level": "High", "description": "Humid conditions promote blast disease", "parameter": "Humidity", "threshold": ">85%" }
+          ],
+          "recommendation": "Critical flowering stage — heavy rain and high humidity expected. Apply fungicide spray for blast disease prevention if not already done. Avoid applying nitrogen fertilizer during this period. Monitor panicles for damage after heavy rainfall.",
+          "urgency": "High"
+        },
+        "Moderate": {
+          "risks": [
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures within tolerance", "parameter": "Temperature", "threshold": ">35°C" },
+            { "type": "Waterlogging", "level": "Low", "description": "Moderate rainfall, panicles should not be affected", "parameter": "Rainfall", "threshold": ">25 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "Monitor for early signs of blast", "parameter": "Humidity", "threshold": ">85%" }
+          ],
+          "recommendation": "Conditions are generally favorable for flowering. Monitor fields regularly for signs of blast or sheath blight. Maintain recommended water levels in the field. Apply need-based plant protection measures.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Heat Stress", "level": "Low", "description": "Optimal temperature range", "parameter": "Temperature", "threshold": ">35°C" },
+            { "type": "Waterlogging", "level": "Low", "description": "No excess rainfall expected", "parameter": "Rainfall", "threshold": ">25 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Low disease pressure", "parameter": "Humidity", "threshold": ">85%" }
+          ],
+          "recommendation": "Weather conditions are favorable for the flowering stage. Continue routine crop management. Ensure adequate water supply for grain formation.",
+          "urgency": "Low"
+        }
+      }
+    },
+    "crop-tomato": {
+      "tomato-flowering": {
+        "High": {
+          "risks": [
+            { "type": "Waterlogging", "level": "High", "description": "Heavy rainfall will damage flowers and reduce fruit set", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "High", "description": "Wet conditions promote late blight and bacterial wilt", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures are within range for tomato", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Heavy rainfall is expected during the next 24 hours. Avoid unnecessary irrigation and monitor the field for waterlogging. Apply mulch around plants to prevent soil splashing. Spray copper-based fungicide as a preventive measure for late blight. Ensure adequate drainage in the field.",
+          "urgency": "High"
+        },
+        "Moderate": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Moderate", "description": "Moderate rain may affect pollination", "parameter": "Rainfall", "threshold": "10–15 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "Elevated humidity requires monitoring", "parameter": "Humidity", "threshold": ">75%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures normal", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Moderate rainfall expected. Ensure field drainage is clear. Monitor plants for early signs of blight or wilting. Staking and mulching will help keep fruits off wet soil. Schedule spraying operations for dry periods between rain spells.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Low", "description": "Light rain, beneficial for the crop", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Conditions favorable", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Optimal temperatures", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Weather conditions are favorable for flowering. Continue regular irrigation and nutrient management. This is a good window for applying foliar micronutrients to support fruit set.",
+          "urgency": "Low"
+        }
+      },
+      "tomato-fruiting": {
+        "High": {
+          "risks": [
+            { "type": "Waterlogging", "level": "High", "description": "Heavy rainfall may cause fruit cracking and rot", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "High", "description": "Wet and humid conditions promote fruit rot", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Moderate", "description": "High temperatures may affect fruit quality", "parameter": "Temperature", "threshold": ">33°C" }
+          ],
+          "recommendation": "Significant rainfall is expected. Harvest any mature and nearly-mature fruits immediately to prevent rain damage and fruit cracking. Ensure support structures (staking) are secure. Apply post-rain fungicide spray if conditions allow. Prioritize drainage management.",
+          "urgency": "High"
+        },
+        "Moderate": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Moderate", "description": "Moderate rain may cause some fruit issues", "parameter": "Rainfall", "threshold": "10–15 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "Moderate disease pressure", "parameter": "Humidity", "threshold": ">75%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures manageable", "parameter": "Temperature", "threshold": ">33°C" }
+          ],
+          "recommendation": "Moderate rainfall expected. Monitor fruits for cracking. Harvest ripe fruits promptly. Maintain good air circulation around plants by pruning lower leaves. Apply preventive fungicide if needed.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Low", "description": "No excess moisture expected", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Dry conditions, low disease risk", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Favorable temperatures", "parameter": "Temperature", "threshold": ">33°C" }
+          ],
+          "recommendation": "Conditions are favorable for fruit development. Continue regular irrigation schedule. Apply potassium-rich fertilizer to improve fruit quality and shelf life. Harvest at appropriate maturity.",
+          "urgency": "Low"
+        }
+      }
+    },
+    "crop-soybean": {
+      "soy-flowering": {
+        "High": {
+          "risks": [
+            { "type": "Waterlogging", "level": "High", "description": "Soybean is sensitive to waterlogging during flowering", "parameter": "Rainfall", "threshold": ">20 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "Humid conditions may trigger rust", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures in acceptable range", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Heavy rainfall expected. Soybean flowering is highly sensitive to waterlogging. Ensure field drainage is functional. Avoid any field operations during wet conditions. Monitor for soybean rust symptoms (pustules on lower leaves) after the rain spell.",
+          "urgency": "High"
+        },
+        "Moderate": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Moderate", "description": "Some waterlogging risk in low-lying patches", "parameter": "Rainfall", "threshold": "15–20 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Monitor humidity levels", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Favorable temperatures", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Moderate rainfall expected. Ensure inter-row drainage. If preventive rust spray has not been applied, consider scheduling it for the next dry window. Monitor plant health and pest activity.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Waterlogging", "level": "Low", "description": "No excess moisture expected", "parameter": "Rainfall", "threshold": ">20 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Low disease pressure", "parameter": "Humidity", "threshold": ">80%" },
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures normal", "parameter": "Temperature", "threshold": ">35°C" }
+          ],
+          "recommendation": "Conditions are favorable for soybean flowering. This is a good time for routine scouting and weed management. Ensure adequate moisture is available during this critical reproductive stage.",
+          "urgency": "Low"
+        }
+      }
+    },
+    "crop-wheat": {
+      "wheat-heading": {
+        "Moderate": {
+          "risks": [
+            { "type": "Heat Stress", "level": "Moderate", "description": "Temperatures are above optimal for wheat heading", "parameter": "Temperature", "threshold": ">25°C" },
+            { "type": "Waterlogging", "level": "Low", "description": "Current season rainfall is not expected to affect wheat", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "Moderate", "description": "Warm humid conditions may promote rust", "parameter": "Humidity", "threshold": ">70%" }
+          ],
+          "recommendation": "Temperatures are above optimal for wheat heading. If possible, apply a light irrigation during cooler parts of the day to moderate canopy temperature. Monitor for yellow or brown rust symptoms. Avoid nitrogen application at this stage.",
+          "urgency": "Moderate"
+        },
+        "Low": {
+          "risks": [
+            { "type": "Heat Stress", "level": "Low", "description": "Temperatures within optimal range", "parameter": "Temperature", "threshold": ">25°C" },
+            { "type": "Waterlogging", "level": "Low", "description": "No excess moisture", "parameter": "Rainfall", "threshold": ">15 mm/day" },
+            { "type": "Disease Risk", "level": "Low", "description": "Low disease risk", "parameter": "Humidity", "threshold": ">70%" }
+          ],
+          "recommendation": "Favorable conditions for wheat heading. Continue regular monitoring. Ensure adequate soil moisture for grain development. No immediate action required.",
+          "urgency": "Low"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "crops": [
+    {
+      "id": "crop-rice",
+      "name": "Rice (Paddy)",
+      "category": "Cereal",
+      "stages": [
+        { "id": "rice-nursery", "name": "Nursery", "durationDays": "20-25", "description": "Seedbed preparation and germination", "temperatureOptimal": [25, 32], "rainfallOptimal": [5, 15], "humidityOptimal": [70, 85] },
+        { "id": "rice-transplanting", "name": "Transplanting", "durationDays": "7-10", "description": "Transplanting seedlings to the main field", "temperatureOptimal": [22, 30], "rainfallOptimal": [10, 25], "humidityOptimal": [75, 90] },
+        { "id": "rice-tillering", "name": "Tillering", "durationDays": "30-40", "description": "Tiller development and vegetative growth", "temperatureOptimal": [25, 33], "rainfallOptimal": [15, 30], "humidityOptimal": [70, 85] },
+        { "id": "rice-flowering", "name": "Flowering", "durationDays": "10-15", "description": "Panicle emergence and pollination", "temperatureOptimal": [24, 30], "rainfallOptimal": [5, 20], "humidityOptimal": [65, 80] },
+        { "id": "rice-grain-filling", "name": "Grain Filling", "durationDays": "20-30", "description": "Grain development and maturation", "temperatureOptimal": [22, 28], "rainfallOptimal": [5, 15], "humidityOptimal": [60, 75] }
+      ]
+    },
+    {
+      "id": "crop-tomato",
+      "name": "Tomato",
+      "category": "Vegetable",
+      "stages": [
+        { "id": "tomato-seedling", "name": "Seedling", "durationDays": "21-28", "description": "Germination and early growth in nursery", "temperatureOptimal": [20, 28], "rainfallOptimal": [3, 10], "humidityOptimal": [60, 75] },
+        { "id": "tomato-vegetative", "name": "Vegetative", "durationDays": "25-35", "description": "Stem and leaf development", "temperatureOptimal": [22, 30], "rainfallOptimal": [5, 15], "humidityOptimal": [60, 80] },
+        { "id": "tomato-flowering", "name": "Flowering", "durationDays": "20-30", "description": "Flower formation and pollination", "temperatureOptimal": [18, 27], "rainfallOptimal": [3, 10], "humidityOptimal": [55, 70] },
+        { "id": "tomato-fruiting", "name": "Fruiting", "durationDays": "30-45", "description": "Fruit development and ripening", "temperatureOptimal": [20, 28], "rainfallOptimal": [5, 12], "humidityOptimal": [55, 70] }
+      ]
+    },
+    {
+      "id": "crop-soybean",
+      "name": "Soybean",
+      "category": "Oilseed",
+      "stages": [
+        { "id": "soy-germination", "name": "Germination", "durationDays": "7-10", "description": "Seed emergence and establishment", "temperatureOptimal": [20, 30], "rainfallOptimal": [8, 15], "humidityOptimal": [65, 80] },
+        { "id": "soy-vegetative", "name": "Vegetative", "durationDays": "30-40", "description": "Leaf and branch development", "temperatureOptimal": [22, 32], "rainfallOptimal": [10, 25], "humidityOptimal": [60, 80] },
+        { "id": "soy-flowering", "name": "Flowering", "durationDays": "15-20", "description": "Flower production and pollination", "temperatureOptimal": [22, 28], "rainfallOptimal": [8, 18], "humidityOptimal": [60, 75] },
+        { "id": "soy-pod-filling", "name": "Pod Filling", "durationDays": "25-35", "description": "Seed development in pods", "temperatureOptimal": [20, 28], "rainfallOptimal": [5, 15], "humidityOptimal": [55, 70] }
+      ]
+    },
+    {
+      "id": "crop-wheat",
+      "name": "Wheat",
+      "category": "Cereal",
+      "stages": [
+        { "id": "wheat-sowing", "name": "Sowing", "durationDays": "7-14", "description": "Seed sowing and germination", "temperatureOptimal": [15, 22], "rainfallOptimal": [5, 12], "humidityOptimal": [55, 70] },
+        { "id": "wheat-crown-root", "name": "Crown Root", "durationDays": "20-25", "description": "Root establishment and early tillering", "temperatureOptimal": [12, 20], "rainfallOptimal": [8, 15], "humidityOptimal": [55, 70] },
+        { "id": "wheat-heading", "name": "Heading", "durationDays": "15-20", "description": "Ear emergence and pollination", "temperatureOptimal": [14, 22], "rainfallOptimal": [5, 12], "humidityOptimal": [50, 65] },
+        { "id": "wheat-grain-filling", "name": "Grain Filling", "durationDays": "25-35", "description": "Grain development and hardening", "temperatureOptimal": [15, 25], "rainfallOptimal": [3, 10], "humidityOptimal": [45, 60] }
+      ]
+    }
+  ]
+}
