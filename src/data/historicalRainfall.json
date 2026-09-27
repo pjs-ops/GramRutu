@@ -1,0 +1,16 @@
+{
+  "historical": [
+    { "month": "Jun", "rainfall": 145 },
+    { "month": "Jul", "rainfall": 210 },
+    { "month": "Aug", "rainfall": 180 },
+    { "month": "Sep", "rainfall": 140 },
+    { "month": "Oct", "rainfall": 65 }
+  ],
+  "currentSeason": [
+    { "month": "Jun", "rainfall": 162 },
+    { "month": "Jul", "rainfall": 235 },
+    { "month": "Aug", "rainfall": 198 },
+    { "month": "Sep", "rainfall": 155 },
+    { "month": "Oct", "rainfall": 42 }
+  ]
+}

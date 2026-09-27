@@ -64,7 +64,74 @@ export const translations: Record<string, Record<Language, string>> = {
   'common.details': { en: 'View Details', mr: 'तपशील पहा' },
   'common.search': { en: 'Search Panchayat...', mr: 'ग्रामपंचायत शोधा...' },
   'common.language': { en: 'Language', mr: 'भाषा' },
+
+  // Feature 1: Crowdsourced Verification
+  'feedback.title': { en: 'Was today\'s rainfall forecast accurate?', mr: 'आजचा पावसाचा अंदाज अचूक होता का?' },
+  'feedback.accurate': { en: 'Accurate', mr: 'अचूक' },
+  'feedback.moreRain': { en: 'More rain than forecast', mr: 'अंदाजापेक्षा जास्त पाऊस' },
+  'feedback.lessRain': { en: 'Less rain than forecast', mr: 'अंदाजापेक्षा कमी पाऊस' },
+  'feedback.thanks': { en: 'Thank you — your feedback helps improve local forecasts.', mr: 'अभिप्राय दिल्याबद्दल धन्यवाद. स्थानिक अंदाज सुधारण्यासाठी तुमचा अभिप्राय उपयुक्त आहे.' },
+  'feedback.communityTitle': { en: 'Community Feedback', mr: 'समुदाय अभिप्राय' },
+  'feedback.accuracyLabel': { en: 'Accuracy', mr: 'अचूकता' },
+  'feedback.totalReports': { en: 'Total Reports', mr: 'एकूण अहवाल' },
+  'feedback.communityConfidence': { en: 'Community Confidence', mr: 'समुदाय विश्वास' },
+  'feedback.prototype': { en: 'Prototype community feedback', mr: 'नमुना समुदाय अभिप्राय' },
+  'waterlogging.title': { en: 'Report Waterlogging / Crop Impact', mr: 'पाणी साचणे / पिकांवरील परिणाम नोंदवा' },
+  'waterlogging.severity': { en: 'Waterlogging Severity', mr: 'पाणी साचण्याची तीव्रता' },
+  'waterlogging.none': { en: 'None', mr: 'नाही' },
+  'waterlogging.minor': { en: 'Minor', mr: 'किरकोळ' },
+  'waterlogging.severe': { en: 'Severe', mr: 'गंभीर' },
+  'waterlogging.observation': { en: 'Observation (optional)', mr: 'निरीक्षण (ऐच्छिक)' },
+  'waterlogging.photo': { en: 'Attach photo (optional)', mr: 'फोटो जोडा (ऐच्छिक)' },
+  'waterlogging.submit': { en: 'Submit Report', mr: 'अहवाल सादर करा' },
+  'waterlogging.captured': { en: 'Report captured for prototype verification.', mr: 'नमुना पडताळणीसाठी अहवाल नोंदवला.' },
+
+  // Feature 2: Uncertainty
+  'uncertainty.title': { en: 'Forecast Uncertainty Band', mr: 'अंदाज अनिश्चितता पट्टा' },
+  'uncertainty.subtitle': { en: 'Shaded area shows the predicted range of rainfall', mr: 'छायांकित क्षेत्र अपेक्षित पावसाची श्रेणी दर्शवते' },
+  'confidence.title': { en: 'Forecast Confidence', mr: 'अंदाज विश्वासार्हता' },
+  'confidence.high': { en: 'High', mr: 'उच्च' },
+  'confidence.moderate': { en: 'Moderate', mr: 'मध्यम' },
+  'confidence.low': { en: 'Low', mr: 'कमी' },
+  'confidence.terrainNote': { en: 'Confidence may decrease near complex terrain and Panchayat/block boundaries.', mr: 'जटिल भूप्रदेश आणि तालुका सीमेजवळ अंदाजातील विश्वासार्हता कमी होऊ शकते.' },
+  'confidence.prototypeEstimate': { en: 'Prototype estimate', mr: 'नमुना अंदाज' },
+
+  // Feature 3: Officer mode
+  'role.farmer': { en: 'Farmer', mr: 'शेतकरी' },
+  'role.officer': { en: 'Officer', mr: 'अधिकारी' },
+  'officer.title': { en: 'Junnar Block — Panchayat Risk Overview', mr: 'जुन्नर तालुका — पंचायत धोका आढावा' },
+  'officer.severeRisk': { en: 'Severe rainfall risk', mr: 'तीव्र पावसाचा धोका' },
+  'officer.moderateRisk': { en: 'Moderate risk', mr: 'मध्यम धोका' },
+  'officer.normalRisk': { en: 'Normal', mr: 'सामान्य' },
+  'officer.highRisk': { en: 'High risk', mr: 'जास्त धोका' },
+  'officer.priorityActions': { en: 'Priority Actions', mr: 'प्राधान्य कृती' },
+  'officer.action': { en: 'Action', mr: 'कृती' },
+  'officer.panchayats': { en: 'Panchayats', mr: 'ग्रामपंचायती' },
+  'officer.confidence': { en: 'Confidence', mr: 'विश्वासार्हता' },
+  'officer.verification': { en: 'Forecast Verification', mr: 'अंदाज पडताळणी' },
+
+  // Feature 4: Historical
+  'historical.title': { en: 'Historical Rainfall & Climate Normal', mr: 'ऐतिहासिक पाऊस आणि हवामान सरासरी' },
+  'historical.subtitle': { en: 'Compare current season with historical averages', mr: 'सध्याच्या हंगामाची ऐतिहासिक सरासरीशी तुलना करा' },
+  'historical.average': { en: 'Historical Average', mr: 'ऐतिहासिक सरासरी' },
+  'historical.current': { en: 'Current Season', mr: 'चालू हंगाम' },
+  'historical.anomaly': { en: 'Rainfall Anomaly', mr: 'पाऊस विसंगती' },
+  'historical.above': { en: 'Above historical average', mr: 'ऐतिहासिक सरासरीपेक्षा जास्त' },
+  'historical.below': { en: 'Below historical average', mr: 'ऐतिहासिक सरासरीपेक्षा कमी' },
+  'historical.prototype': { en: 'Prototype historical dataset', mr: 'नमुना ऐतिहासिक डेटासेट' },
+
+  // Feature 5: Voice
+  'voice.listen': { en: '🎙 Listen to Today\'s Forecast', mr: '🎙 आजचा हवामान अंदाज ऐका' },
+  'voice.speaking': { en: 'Speaking...', mr: 'बोलत आहे...' },
+  'voice.stop': { en: 'Stop', mr: 'थांबवा' },
+  'voice.unavailable': { en: 'Voice not available for this language.', mr: 'या भाषेसाठी आवाज उपलब्ध नाही.' },
+
+  // Metrics
+  'metrics.mae': { en: 'MAE', mr: 'MAE' },
+  'metrics.bias': { en: 'Bias', mr: 'Bias' },
+  'metrics.confidence': { en: 'Confidence', mr: 'विश्वासार्हता' },
 };
+
 
 export const cropDictionary: Record<string, Record<Language, string>> = {
   Tomato: { en: 'Tomato', mr: 'टोमॅटो' },

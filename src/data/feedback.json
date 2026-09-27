@@ -1,0 +1,10 @@
+{
+  "feedbackData": [
+    { "panchayatId": "p-otur", "accurate": 19, "moreRain": 3, "lessRain": 1, "total": 23 },
+    { "panchayatId": "p-narayangaon", "accurate": 14, "moreRain": 2, "lessRain": 4, "total": 20 },
+    { "panchayatId": "p-alephata", "accurate": 8, "moreRain": 6, "lessRain": 2, "total": 16 },
+    { "panchayatId": "p-belha", "accurate": 6, "moreRain": 9, "lessRain": 1, "total": 16 },
+    { "panchayatId": "p-pimpalwandi", "accurate": 17, "moreRain": 1, "lessRain": 3, "total": 21 },
+    { "panchayatId": "p-nimgaon", "accurate": 12, "moreRain": 4, "lessRain": 2, "total": 18 }
+  ]
+}

@@ -238,3 +238,56 @@ export interface WhatIfScenarioResult {
   actionMessageMr: string;
 }
 
+// Feature: Role Toggle
+export type UserRole = 'farmer' | 'officer';
+
+// Feature: Crowdsourced Feedback
+export type FeedbackChoice = 'accurate' | 'moreRain' | 'lessRain';
+
+export interface ForecastFeedback {
+  panchayatId: string;
+  accurate: number;
+  moreRain: number;
+  lessRain: number;
+  total: number;
+}
+
+export type WaterloggingSeverity = 'none' | 'minor' | 'severe';
+
+export interface WaterloggingReportData {
+  severity: WaterloggingSeverity;
+  observation: string;
+  photoName: string | null;
+}
+
+// Feature: Uncertainty Visualization
+export interface UncertaintyPoint {
+  time: string;
+  rainfall: number;
+  lower: number;
+  upper: number;
+}
+
+// Feature: Historical Rainfall
+export interface HistoricalRainfallPoint {
+  month: string;
+  rainfall: number;
+}
+
+export interface SeasonRainfallComparison {
+  month: string;
+  historical: number;
+  current: number;
+}
+
+// Feature: Officer Mode
+export interface OfficerAction {
+  panchayatId: string;
+  panchayatName: string;
+  rainfall: number;
+  risk: RiskLevel;
+  confidence: number;
+  actionEn: string;
+  actionMr: string;
+}
+
